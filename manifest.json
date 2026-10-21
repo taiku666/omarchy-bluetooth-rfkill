@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "taiku.bluetooth",
+  "name": "Bluetooth (rfkill-safe)",
+  "version": "1.0.0",
+  "author": "taiku666",
+  "description": "Omarchy Bluetooth widget that stays visible when rfkill removes the adapter",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "Panel.qml"
+  },
+  "barWidget": {
+    "displayName": "My Bluetooth",
+    "description": "Omarchy Bluetooth widget that stays visible when rfkill removes the adapter",
+    "category": "Network",
+    "allowMultiple": false
+  },
+  "omarchy": {
+    "clonedFrom": "omarchy.bluetooth"
+  }
+}
